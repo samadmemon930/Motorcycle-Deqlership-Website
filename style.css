@@ -1,0 +1,454 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+html,
+body {
+  font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+}
+
+p,input {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  color: #BEBEBE;
+  line-height: 1.8;
+}
+
+
+/* ===== TOP BAR ===== */
+.top-bar {
+  background-color: #1b1b1b;
+}
+
+.top-bar .container > div:last-child {
+  margin-right: 15px;   /* Right side thora aage karna */
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Right side ENGLISH + LOGIN same hover as .top-bar a:hover */
+.top-bar .dropdown-toggle:hover,
+.top-bar > .container > div:last-child a:hover {
+    color: #fd8a20 !important; /* same as your .top-bar a:hover */
+}
+
+
+/* ===== TOP BAR DROPDOWN (LANGUAGE MENU) ===== */
+.top-bar .dropdown-menu {
+  background-color: #191414;
+  min-width: 120px;
+  padding: 0;
+}
+
+.top-bar .dropdown-item {
+  color: #bebebe !important;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+/* Dropdown items hover — ONLY text color change, NO background */
+.top-bar .dropdown-item:hover {
+    background-color: transparent !important;
+    color: #ff6600 !important;  /* same hover color you use */
+}
+
+
+.top-bar .dropdown-toggle {
+  text-decoration: none;
+}
+
+.top-bar .dropdown-toggle::after {
+  margin-left: 5px;
+   vertical-align: middle;
+}
+
+/* ===== MAIN NAVBAR ===== */
+.main-navbar {
+  background-color: #2f2e2e;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 2em;
+  height: 2em;
+}
+
+.navbar-nav .nav-link {
+  color: #bebebe !important;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fd8a20 !important;
+}
+
+/* ===== MAIN NAVBAR DROPDOWN (PAGE MENU) ===== */
+.main-navbar .dropdown-menu {
+  background-color: #191414;
+  border: none;
+  border-radius: 0;
+  margin-top: 0.5rem;
+  min-width: 180px;
+  /* padding: 0; */
+}
+
+.main-navbar .dropdown-item {
+  color: #bebebe !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 18px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.main-navbar .dropdown-item:hover {
+  color: #ff6600 !important;
+}
+
+.main-navbar .nav-link.dropdown-toggle::after {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* ===== CONTACT BUTTON ===== */
+.contact-btn {
+  background-color: #FD8A20;
+  color: #fff;
+  padding: 10px 32px ;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #e67b1c;
+}
+
+/* HOME */
+.home {
+  position: relative;
+  margin-top: 130px;
+
+}
+
+.home-img {
+  background-image: url(Images/home-hero.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+
+}
+
+.home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-image: linear-gradient(90deg, #191414D4 0%, #F2295B00 100%);
+  background-color: transparent;
+}
+
+.home-content h4 {
+  font-size: 32px;
+  color: #ECDBBA;
+}
+
+#home-third img{
+  width: 79%;
+  height: 90%;
+}
+
+.shop {
+  transition: .2s ease-in;
+}
+
+.shop:hover {
+  transform: translatey(-20%);
+}
+
+#test-drive{
+    height: 85vh;
+  }
+
+/* ---- TESTIMONIAL SECTION ---- */
+
+.testimonial-section {
+  background-color: #222222;
+  overflow: hidden;
+}
+
+/* IMAGE CONTAINER */
+.testimonial-img {
+  position: relative;
+  z-index: 3;
+}
+
+/* BOTTOM SHAPE */
+.shape-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  transform: translatex(100%);
+  z-index: 1;
+}
+
+/* WHITE CARD */
+.testimonial-card {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: #fff;
+  width: 65%;
+  padding: 2.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+
+/* TOP SHAPE */
+.shape-top {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 120px;
+  z-index: 5;
+}
+
+#footer i {
+  color: #fd8a20;
+}
+
+#footer span {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#footer .navbar-nav {
+  background-color: transparent;
+}
+
+#footer .links {
+  color: #bebebe;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+}
+
+#footer .navbar-nav {
+  background-color: transparent;
+}
+
+/* About Page */
+
+.about-section-img {
+  background-image: url(Images/about-page.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+  position: relative;
+}
+
+.about-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #191414D4 0%, #F2295B00 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+
+
+/* ===== FIX TOPBAR + NAVBAR + HOME + HOME-THIRD CONTAINER SPACING (576PX–991PX) ===== */
+@media (min-width: 576px) and (max-width: 991px) {
+
+  .top-bar .container,
+  .main-navbar .container,
+  #home .container,
+  #home-third .container,
+  #shop .container,
+  #test-drive .container,
+  #about .container,
+  #testimonial .container,
+  #blog .container,
+  #brand .container-fluid,
+  #footer .container,
+  #about-main .container ,
+  #services .container,
+  #mission .container {
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    
+  }
+
+  
+}
+
+/* ===== RESPONSIVE TOP BAR ===== */
+@media (max-width: 767px) {
+  .top-bar .container {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .top-bar .container>div:last-child {
+    display: none !important;
+  }
+
+  .top-bar .container>div:first-child {
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+
+/* ===== RESPONSIVE STYLES ===== */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: #2f2e2e;
+    padding: 10px 0;
+  }
+
+  .navbar>.container{
+    align-items: normal;
+  }
+  
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 10px;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+  }
+
+  .home-img{
+    background-size: auto;
+  }
+
+  .home-content h4{
+    font-size: 20px;
+  } 
+
+  .home-content h1{
+    font-size: 50px;
+  }
+
+  .testimonial-card {
+    position: relative;
+    width: 100%;
+    right: auto;
+    top: auto;
+    transform: none;
+    margin-top: 1.5rem;
+  }
+
+  .shape-top,
+  .shape-bottom {
+    display: none;
+  }
+
+}
+
+
+/* ===== SHOW DROPDOWN ON HOVER (DESKTOP) ===== */
+@media (min-width: 992px) {
+  .main-navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .display-3 {
+    font-size: calc(1.5rem + 1.5vw) !important;
+    /* similar to display-3 scale */
+  } 
+
+  .home-content h1{
+    font-size: 58px;
+  }
+ }  
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #home-third .row {
+    margin: 0 !important;
+  }
+
+  #home-third [class*="col-"] {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #home-third .content{
+    padding-inline: 24px;
+  }
+
+  #home-third .col-sm-6 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  #home-third img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:1050px){
+#home-third img{
+    width: 76%;
+
+  }
+
+  .service-text{
+    font-size: 42px;
+  }
+}
+
+@media (min-width:1400px) and (max-width:1440px){
+  #home-third img{
+    width: 77%;
+  }
+
+  #test-drive{
+    height: 70vh;
+  }
+
+  #test-drive h1{
+    font-size: 64px;
+  }
+
+}
