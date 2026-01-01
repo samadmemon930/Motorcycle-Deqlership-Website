@@ -87,6 +87,10 @@ p,input {
   height: 2em;
 }
 
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
 .navbar-nav .nav-link {
   color: #bebebe !important;
   font-weight: 700;
