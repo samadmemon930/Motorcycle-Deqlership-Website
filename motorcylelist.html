@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
   <!-- ===== Top Info Bar ===== -->
   <div class="top-bar">
     <div class="container d-flex align-items-center justify-content-between flex-wrap py-2">
@@ -75,14 +74,14 @@
             <a class="nav-link " href="index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active " href="about.html">ABOUT</a>
+            <a class="nav-link " href="about.html">ABOUT</a>
           </li>
            <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               PAGE
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item fs-6 fw-bold" href="motorcylelist.html">MOTORCYCLE LIST</a></li>
+              <li><a class="dropdown-item active fs-6 fw-bold" href="motorcylelist.html">MOTORCYCLE LIST</a></li>
               <li><a class="dropdown-item fs-6 fw-bold" href="#">MOTORCYCLE DETAIL</a></li>
 
             </ul>
@@ -104,21 +103,21 @@
     </div>
   </nav>
 
-  <!-- About Main Page -->
-  <section id="about-main" class="position-relative w-100 h-100">
-    <div class="about-section-img ">
-      <div class="about-overlay"></div>
+<!-- Motorcycle List Main -->
+ <section id="about-main" class="position-relative w-100 h-100">
+    <div class="motorcylelist-section-img">
+      <div class="motorcylelist-overlay"></div>
 
       <div class="container ">
         <div class="row position-relative">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-6 mt-5 pt-5 ">
-            <h4 style="color: #ECDBBA;" class="text-uppercase fs-1 fw-bold m-0 ">About</h4>
-            <h1 class="text-white text-uppercase mt-3 ms-1 fw-bold display-1">About</h1>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 my-5 py-5 ">
+            <h4 style="color: #ECDBBA;" class="text-uppercase fs-1 fw-bold m-0 ">MOTORCYCLE LIST</h4>
+            <h1 class="text-white text-uppercase mt-3 ms-1 display-1 fw-bold">MOTORCYCLE LIST</h1>
             <div style="color: #BEBEBE;" class="d-flex align-items-center mt-4 ms-1 ">
               <i class="fas fa-home"></i>
               <li><a class="text-uppercase fs-6 fw-bold ms-3 m-0 nav-link " href="index.html">Home</a></li>
               <i style="font-size: 13px;" aria-hidden="true" class="fas fa-angle-right ms-4 "></i>
-              <span class="ms-4 text-uppercase  fs-6 fw-bold ">About</span>
+              <span class="ms-4 text-uppercase  fs-6 fw-bold ">MOTORCYCLE LIST</span>
             </div>
 
           </div>
@@ -127,141 +126,187 @@
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" style="background-color: #222222;" class="py-5">
+
+
+
+
+
+
+
+
+
+
+
+<!-- Shop -->
+  <section id="shop" style="background-color: #191414;" class="py-5">
     <div class="container">
-      <div class="row d-flex py-5 g-5">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-          <img src="Images/bike-6.jpg" class="img-fluid w-100 h-100  " alt="">
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-          <h6 style="color: #FD8A20;" class="fw-bold text-uppercase fs-5 ">ABOUT</h6>
-          <h2 class="text-white text-uppercase display-3 fw-bold mt-2">ride-on story</h2>
-          <p class="fw-normal mt-5 mt-md-4 mt-lg-5 mb-0">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet.Velit integer sollicitu lacus
-            qua dictumst lorem Consectetur amet elit fusce feugiat morbi laoreet Nunc faucibus pellentesque ornare
-            molestie arcu nuncelit convallis.</p>
-          <p class="fw-normal mt-5 mt-md-4 mt-lg-5 mb-0">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet.Velit integer sollicitu lacus
-            qua dictumst lorem Consectetur amet elit fusce feugiat morbi laoreet Nunc faucibus pellentesque ornare
-            molestie arcu nuncelit convallis.</p>
 
+      <!-- Header Section -->
+      <div class="row text-center">
+        <div class="col-12">
+          <h6 class="fs-5 fw-bold text-uppercase" style="color: #FD8A20;">SHOP</h6>
+          <h2 class="display-4 fw-bold text-uppercase text-white">Motorcycle List</h2>
+          <p class="fs-6 mt-4" style="color: #BEBEBE; font-family: 'Nunito Sans', sans-serif;">
+            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet. Velit integer sollicitudin
+            lacus qua dictumst lorem.
+          </p>
+
+          <!-- Responsive Buttons -->
+          <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-2 mt-5">
+            <a href="#"><button class="btn shop fs-6 fw-bold text-white px-3 py-3 w-md-auto rounded-0 "
+                style="background-color:#FD8A20; border:none;">
+                DUELSPORT BIKES
+              </button></a>
+            <a href="#"><button class="btn shop fs-6 fw-bold px-3 py-3 w-md-auto rounded-0 "
+                style="background-color:transparent; color:#BEBEBE; border:none;">
+                STREET BIKES
+              </button></a>
+            <a href="#"><button class="btn shop fs-6 fw-bold px-3 py-3 w-md-auto rounded-0 "
+                style="background-color:transparent; color:#BEBEBE; border:none;">
+                SCOOTERS BIKES
+              </button></a>
+          </div>
         </div>
       </div>
 
-    </div>
+      <!-- Motorcycle Grid -->
+      <div class="row mt-5 gy-4">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-red.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-black.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-orange.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-black.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/vespa-blue.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/vespa-red.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-orange.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-red.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="text-center p-3 h-100" style="background-color:#2F2E2E;">
+            <img src="Images/bike-black.png" class="img-fluid" alt="">
+            <h2 class="fw-bold fs-5 text-white mt-2">DUELSPORT BIKES</h2>
+            <p class="fs-6" style="color:#F08A24; font-family:'Nunito Sans', sans-serif;">starting from $1299</p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <!-- Customer Services -->
-  <section style="background-color: #222222;" id="services" class="py-5">
-    <div class="container ">
-      <div class="row d-flex g-5">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
-          <h6 style="color: #FD8A20;" class="fw-bold text-uppercase fs-5 ">SERVICES</h6>
-          <h2 class=" text-uppercase text-white mt-2 display-3 fw-bold service-text">Customer service and satisfaction
-          </h2>
-          <p class="fw-normal mt-4 mb-0">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet. Velit integer sollicitu lacus
-            qua dictumst lorem Consectetur amet elit fusce feugiat morbi laoreet Nunc faucibus pellentesque ornare
-            molestie arcu nunceli.</p>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4  ">
-          <img style="background-size: cover;" class="img-fluid w-100 h-100 " src="/Images/service-1.jpg" alt="">
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
-          <img style="background-size: cover;" class="img-fluid w-100 h-100  " src="/Images/service-2.jpg" alt="">
+<!-- Test Drive -->
+  <section id="test-drive" class="position-relative overflow-hidden">
+    <!-- Full Background Image -->
+    <img src="Images/bike-5.jpg" class="position-absolute img-fluid top-0 start-0 w-100 h-100 object-fit-cover " alt="Bike">
+
+    <!-- <img style="left: 85%; " class="position-absolute img-fluid z-1" src="Images/shape-2.png " alt=""> -->
+
+    <!-- Dark Overlay covering full section -->
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+      style="background-image: linear-gradient(90deg, #19141400 0%, #191414B8 100%);"></div>
+
+    <!-- Right Side Text Content -->
+    <div class="container h-100 d-flex align-items-center justify-content-end">
+      <div class="row w-100 justify-content-end">
+        <div class="col-12 col-md-6 col-lg-6 offset-6 text-white text-md-start text-sm-start test-drive" style="z-index: 2;">
+          <h6 class="fw-bold text-uppercase fs-5" style="color: #FD8A20;">TEST DRIVE</h6>
+          <h1 class="fw-bold text-uppercase display-4 ">FEEL EVERYTHING EXPERIENCE & NEW DESIGN
+          </h1>
+          <p class="mt-4 text-white fw-normal">
+            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet. Velit integer sollicitu lacus qua dictumst lorem Consectetur amet elit fusce feugiat
+          </p>
+          <button class="btn fs-6 fw-bold mt-4 d-inline-flex align-items-center text-white px-4 py-2 rounded-0"
+            style="background-color:#FD8A20; border:none;  ">
+            LEARN MORE <i aria-hidden="true" class="fas fa-caret-right ms-2"></i>
+          </button>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Mission -->
-  <section style="background-color: #222222;" id="mission" class="py-5 ">
-    <div class="container ">
-      <div class="row d-flex g-5">
-
-        <div class="col-md-6 ">
-          <img class="img-fluid w-100 h-100 " src="/Images/mission.jpg" alt="">
-        </div>
-        <div class="col-md-6 p-xl-4">
-          <h6 style="color: #FD8A20;" class="fw-bold text-uppercase fs-5 ">MISSION</h6>
-          <h2 class=" text-uppercase text-white mt-2 display-3 fw-bold service-text">THE MISSION
-          </h2>
-          <p class="fw-normal mt-5 mt-md-4 mt-lg-5 mb-0">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet.Velit integer sollicitu lacus
-            qua dictumst lorem Consectetur amet elit fusce feugiat morbi laoreet Nunc faucibus pellentesque ornare
-            molestie arcu nuncelit convallis.</p>
-            <p class="fw-normal mt-5 mt-md-4 mt-lg-5 mb-0">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis non amet.Velit integer sollicitu lacus
-            qua dictumst lorem Consectetur amet elit fusce feugiat morbi laoreet Nunc faucibus pellentesque ornare
-            molestie arcu nuncelit convallis.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Photo Gallery -->
-   <section style="background-color: #222222;" class="py-5">
-    <div class="container">
-      <!-- row 1 -->
-      <div class="row">
-        <div class="col-12 text-center">
-          <h6 style="color: #FD8A20;" class="fw-bold text-uppercase fs-5">GALLERY</h6>
-          <h2 class="text-white display-4 fw-bold text-uppercase mb-0 ">PHOTO GALLERY</h2>
-          <p style="color: #BEBEBE" class="fw-normal mt-4">
-            Sem faucibus volutpat bibendum amet mattis lectus tristique sagittis <br> non amet. Velit integer sollicitu
-            lacus qua dictumst lorem</p>
-        </div>
-      </div>
-
-      <!-- row 2 -->
-       <div class="row d-flex gy-5 mt-5">
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-1.jpg" class="img-fluid w-100 h-100" alt="">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-2.jpg" class="img-fluid w-100 h-100" alt="">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-3.jpg" class="img-fluid w-100 h-100" alt="">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-4.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-5.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-          <img src="/Images/gallery-6.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
-        </div>
-       </div>
-
-        
-       </div>
-    </div>
-   </section>
-
-    <!-- ===== BRAND LOGOS SECTION ===== -->
+  
+  <!-- ===== BRAND LOGOS SECTION ===== -->
   <section id="brand" style="background-color: #2F2E2E; " class="d-flex align-items-center py-5">
     <div class="container-fluid ">
       <div class="row text-center justify-content-center align-items-center w-100 m-0">
-        <div class=" col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class=" col-6 col-sm-2  col-md-2">
           <img src="Images/brand-01.png" alt="Brand 1" class="img-fluid ">
         </div>
-        <div class="col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class="col-6 col-sm-2 col-md-2">
           <img src="Images/brand-02.png" alt="Brand 2" class="img-fluid ">
         </div>
-        <div class=" col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class=" col-6 col-sm-2 col-md-2">
           <img src="Images/brand-03.png" alt="Brand 3" class="img-fluid ">
         </div>
-        <div class=" col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class=" col-6 col-sm-2 col-md-2">
           <img src="Images/brand-04.png" alt="Brand 4" class="img-fluid">
         </div>
-        <div class=" col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class=" col-6 col-sm-2 col-md-2">
           <img src="Images/brand-05.png" alt="Brand 5" class="img-fluid ">
         </div>
-        <div class=" col-6 col-sm-2 col-md-2 col-lg-2">
+        <div class=" col-6 col-sm-2 col-md-2">
           <img src="Images/brand-06.png" alt="Brand 6" class="img-fluid  ">
         </div>
       </div>
@@ -399,8 +444,13 @@
   </section>
 
 
+
+
+   <script src="script.js"></script>
+
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

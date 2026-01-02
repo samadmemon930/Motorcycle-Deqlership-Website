@@ -14,7 +14,8 @@ body {
   overflow-x: hidden;
 }
 
-p,input {
+p,
+input {
   font-family: "Nunito Sans", sans-serif;
   font-size: 15px;
   color: #BEBEBE;
@@ -27,8 +28,9 @@ p,input {
   background-color: #1b1b1b;
 }
 
-.top-bar .container > div:last-child {
-  margin-right: 15px;   /* Right side thora aage karna */
+.top-bar .container>div:last-child {
+  margin-right: 15px;
+  /* Right side thora aage karna */
 }
 
 .top-bar a {
@@ -38,8 +40,9 @@ p,input {
 
 /* Right side ENGLISH + LOGIN same hover as .top-bar a:hover */
 .top-bar .dropdown-toggle:hover,
-.top-bar > .container > div:last-child a:hover {
-    color: #fd8a20 !important; /* same as your .top-bar a:hover */
+.top-bar>.container>div:last-child a:hover {
+  color: #fd8a20 !important;
+  /* same as your .top-bar a:hover */
 }
 
 
@@ -58,8 +61,9 @@ p,input {
 
 /* Dropdown items hover — ONLY text color change, NO background */
 .top-bar .dropdown-item:hover {
-    background-color: transparent !important;
-    color: #ff6600 !important;  /* same hover color you use */
+  background-color: transparent !important;
+  color: #ff6600 !important;
+  /* same hover color you use */
 }
 
 
@@ -69,7 +73,7 @@ p,input {
 
 .top-bar .dropdown-toggle::after {
   margin-left: 5px;
-   vertical-align: middle;
+  vertical-align: middle;
 }
 
 /* ===== MAIN NAVBAR ===== */
@@ -87,7 +91,7 @@ p,input {
   height: 2em;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   box-shadow: none;
 }
 
@@ -136,7 +140,7 @@ p,input {
 .contact-btn {
   background-color: #FD8A20;
   color: #fff;
-  padding: 10px 32px ;
+  padding: 10px 32px;
   transition: 0.3s;
 }
 
@@ -177,22 +181,22 @@ p,input {
   color: #ECDBBA;
 }
 
-#home-third img{
+#home-third img {
   width: 79%;
   height: 90%;
 }
 
 .shop {
-  transition: .2s ease-in;
+  transition: .3s ease-in;
 }
 
 .shop:hover {
   transform: translatey(-20%);
 }
 
-#test-drive{
-    height: 85vh;
-  }
+#test-drive {
+  height: 85vh;
+}
 
 /* ---- TESTIMONIAL SECTION ---- */
 
@@ -287,6 +291,32 @@ p,input {
 }
 
 
+/* Motorcycle List Page */
+.motorcylelist-section-img {
+  background-image: url(Images/motorcylelist-page.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 440px;
+  width: 100%;
+  position: relative;
+}
+
+
+.motorcylelist-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #191414D4 0%, #F2295B00 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+
 
 /* ===== FIX TOPBAR + NAVBAR + HOME + HOME-THIRD CONTAINER SPACING (576PX–991PX) ===== */
 @media (min-width: 576px) and (max-width: 991px) {
@@ -302,17 +332,17 @@ p,input {
   #blog .container,
   #brand .container-fluid,
   #footer .container,
-  #about-main .container ,
+  #about-main .container,
   #services .container,
   #mission .container {
     max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
 
-    
+
   }
 
-  
+
 }
 
 /* ===== RESPONSIVE TOP BAR ===== */
@@ -337,32 +367,31 @@ p,input {
 @media (max-width: 991px) {
   .navbar-nav {
     background-color: #2f2e2e;
-    padding: 10px 0;
   }
 
-  .navbar>.container{
+  .navbar>.container {
     align-items: normal;
   }
-  
+
 
   .navbar-nav .nav-link {
     display: block;
-    padding: 10px;
+
   }
 
   .contact-btn {
     margin-top: 10px;
   }
 
-  .home-img{
+  .home-img {
     background-size: auto;
   }
 
-  .home-content h4{
+  .home-content h4 {
     font-size: 20px;
-  } 
+  }
 
-  .home-content h1{
+  .home-content h1 {
     font-size: 50px;
   }
 
@@ -395,12 +424,12 @@ p,input {
   .display-3 {
     font-size: calc(1.5rem + 1.5vw) !important;
     /* similar to display-3 scale */
-  } 
+  }
 
-  .home-content h1{
+  .home-content h1 {
     font-size: 58px;
   }
- }  
+}
 
 
 
@@ -414,7 +443,7 @@ p,input {
     margin: 0 !important;
   }
 
-  #home-third .content{
+  #home-third .content {
     padding-inline: 24px;
   }
 
@@ -431,27 +460,27 @@ p,input {
   }
 }
 
-@media (min-width:768px) and (max-width:1050px){
-#home-third img{
+@media (min-width:768px) and (max-width:1050px) {
+  #home-third img {
     width: 76%;
 
   }
 
-  .service-text{
+  .service-text {
     font-size: 42px;
   }
 }
 
-@media (min-width:1400px) and (max-width:1440px){
-  #home-third img{
+@media (min-width:1400px) and (max-width:1440px) {
+  #home-third img {
     width: 77%;
   }
 
-  #test-drive{
+  #test-drive {
     height: 70vh;
   }
 
-  #test-drive h1{
+  #test-drive h1 {
     font-size: 64px;
   }
 
