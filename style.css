@@ -318,6 +318,16 @@ input {
   position: relative;
 }
 
+.testimonial-section-img {
+  background-image: url(Images/testimonial-page.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+
 
 
 
@@ -342,7 +352,10 @@ input {
   #mission .container,
   #motorcylelist-main .container, 
   #blog-main .container,
-  #servicecenter-main .container {
+  #servicecenter-main .container,
+  #services-cards .container, 
+  #shedule-services .container,
+  #testimonial-main .container {
     max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
